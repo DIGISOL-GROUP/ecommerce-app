@@ -1,0 +1,67 @@
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  background: linear-gradient(120deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #222;
+  min-height: 100vh;
+  transition: background 0.3s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+button, .MuiButton-root {
+  font-family: inherit;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(33, 150, 243, 0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+button:hover, .MuiButton-root:hover {
+  background: #1976d2 !important;
+  color: #fff !important;
+  box-shadow: 0 4px 16px rgba(33, 150, 243, 0.15);
+}
+
+input, .MuiInputBase-input {
+  border-radius: 6px;
+  transition: box-shadow 0.2s;
+}
+input:focus, .MuiInputBase-input:focus {
+  box-shadow: 0 0 0 2px #1976d233;
+}
+
+.MuiCard-root {
+  border-radius: 16px !important;
+  box-shadow: 0 4px 24px rgba(33, 150, 243, 0.10) !important;
+  transition: box-shadow 0.2s;
+}
+.MuiCard-root:hover {
+  box-shadow: 0 8px 32px rgba(33, 150, 243, 0.18) !important;
+}
+
+.MuiPaper-root {
+  border-radius: 16px !important;
+  box-shadow: 0 2px 12px rgba(33, 150, 243, 0.10) !important;
+}
+
+.MuiAlert-root {
+  border-radius: 8px !important;
+}
+
+.MuiTabs-root {
+  margin-bottom: 16px;
+}
+
+.MuiContainer-root {
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+}
+
+.MuiTypography-root {
+  letter-spacing: 0.2px;
+}
+
+/* Add more custom styles as needed */
